@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void) {
+int main_loop(void) {
 	/*
 	for (int i = 0; i <= 10; i++) {
 		printf("Hello World\n");
@@ -30,11 +30,45 @@ int main(void) {
 	}
 	*/
 
+	/* º°Âï±â
 	for (int i = 1; i <= 5; i++) {
 		for (int j = 1; j <= i; j++) {
 			printf("*");
 		}
 		printf("\n");
+	}
+	*/
+
+	// ¿ª¼ø º°
+	/*
+	for (int i = 1; i <= 5; i++) {
+		for (int j = i; j <= 4;  j++) {
+			printf(" ");
+		}
+		for (int k = 1; k <= i; k++) {
+			printf("*");
+		}
+		printf("\n");
+	}
+	*/
+
+	// ÇÇ¶ó¹Ìµå ½×±â
+
+	int floor;
+	printf("¸î ÃþÀ¸·Î ½×À»°ÍÀÌ³Ä?");
+	scanf_s("%d", &floor);
+	
+	for (int i = 0; i < floor; i++) {
+
+		for (int j = i; j <= floor-1; j++) {
+			printf(" ");
+		}
+
+		for (int k = 0; k < (i * 2) + 1; k++) {
+			printf("*");
+		}
+		printf("\n");
+		
 	}
 
 	return 0;

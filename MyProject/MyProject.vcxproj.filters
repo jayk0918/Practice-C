@@ -24,5 +24,23 @@
     <ClCompile Include="loop.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="condition.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="function.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="function_project.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="array.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="array_project.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
