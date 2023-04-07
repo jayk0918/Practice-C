@@ -134,6 +134,7 @@
     <ClCompile Include="helloword.c" />
     <ClCompile Include="condition.c" />
     <ClCompile Include="pointer.c" />
+    <ClCompile Include="pointer_project.c" />
     <ClCompile Include="prinfscanf.c" />
     <ClCompile Include="loop.c" />
   </ItemGroup>
