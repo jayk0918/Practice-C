@@ -45,5 +45,14 @@
     <ClCompile Include="pointer_project.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="multi-dimensional-array.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="multi-dimentional-array-project.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="struct.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

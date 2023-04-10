@@ -133,10 +133,13 @@
     <ClCompile Include="function_project.c" />
     <ClCompile Include="helloword.c" />
     <ClCompile Include="condition.c" />
+    <ClCompile Include="multi-dimensional-array.c" />
+    <ClCompile Include="multi-dimentional-array-project.c" />
     <ClCompile Include="pointer.c" />
     <ClCompile Include="pointer_project.c" />
     <ClCompile Include="prinfscanf.c" />
     <ClCompile Include="loop.c" />
+    <ClCompile Include="struct.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
