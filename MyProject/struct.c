@@ -10,7 +10,7 @@ struct GameInfo {
 };
 
 
-int main(void) {
+int main_struct(void){
 	// 게임 출시
 	// 이름 : 폭8
 	// 발매년도 : 1972년
